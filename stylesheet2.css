@@ -55,15 +55,11 @@ ol, ul {
 }
 .top-navigation > .content {
     margin: 0 auto;
-    width: 970px;
+    width: 1024px;
     height: 70px;
 }
-.top-navigation .logo {
-    height: 36px;
-    padding-top: 10px;
-}
+
 .top-navigation .links {
-    float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
@@ -88,8 +84,8 @@ ol, ul {
     background-image: url('img/table-background-img.jpg');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 45.938rem;
+    background-size: cover;
+    height: 768px;
     overflow: auto;
 }
 
@@ -147,8 +143,9 @@ button:hover {
 .cases {
     background-color: #fff;
     overflow: hidden;
-    padding-bottom: 5rem;
+    padding-bottom: 0px;
     background-image: url('img/Food-icons.png');
+    background-repeat: no-repeat;
 }
 .cases .content {
     margin-top: 7.875rem;
@@ -178,8 +175,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-image: url(http://subtlepatterns.com/patterns/footer_lodyas.png);
-    background-size: cover;
+    background-color: #F05A28;
     text-align: center;
 }
 
@@ -193,7 +189,7 @@ footer > p {
 }
 
 .content-footer {
-    background-image: url(http://subtlepatterns.com/patterns/footer_lodyas.png);
+    background-color: #F06E28;
     background-size: cover;
     text-align: center;
     margin-top: 3em;
